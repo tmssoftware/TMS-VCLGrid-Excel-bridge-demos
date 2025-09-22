@@ -7,7 +7,7 @@ uses
   Controls, Forms, Dialogs, UAdvGridExcelExport, StdCtrls,
   ExtCtrls, Grids, AdvObj, BaseGrid, AdvGrid, ShellAPI,
   {$if CompilerVersion >= 23.0} System.UITypes, {$IFEND}
-  VCL.FlexCel.Core, FlexCel.XlsAdapter, AdvUtil;
+  FlexCel.VCLSupport, FlexCel.Core, FlexCel.XlsAdapter, AdvUtil;
 
 type
   TFMainForm = class(TForm)

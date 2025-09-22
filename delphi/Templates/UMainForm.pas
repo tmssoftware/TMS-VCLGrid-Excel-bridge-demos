@@ -6,7 +6,7 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, ExtCtrls, Grids, BaseGrid, AdvGrid, ShellAPI,
   {$if CompilerVersion >= 23.0} System.UITypes, {$IFEND}
-  UAdvGridExcelExport, AdvObj, VCL.FlexCel.Core, FlexCel.XlsAdapter;
+  UAdvGridExcelExport, AdvObj, FlexCel.VCLSupport, FlexCel.Core, FlexCel.XlsAdapter;
 
 type
   TMainForm = class(TForm)
